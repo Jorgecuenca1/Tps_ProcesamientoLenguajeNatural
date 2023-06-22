@@ -1,1 +1,51 @@
+En este repositorio estan los 6 trabajos practicos de la materia de Procesamiento de lenguaje natural:
+Trabajo practico 1:
+1 - Obtener el vocabulario del corpus (los términos utilizados)
+Cada documento transformarlo en una lista de términos
+Armar un vector de términos no repetidos de todos los documentos
+2- OneHot encoding
+Data una lista de textos, devolver una matriz con la representación oneHotEncoding de estos
+3- Vectores de frecuencia
+Data una lista de textos, devolver una matriz con la representación de frecuencia de estos
+4- TF-IDF
+Data una lista de textos, devolver una matriz con la representacion TFIDF
+5 - Comparación de documentos
+Realizar una funcion que reciba el corpus y el índice de un documento y devuelva los documentos ordenados por la similitud coseno
+Trabajo practico 2:
 
+Tomar un ejemplo de los bots utilizados (uno de los dos) y construir el propio.
+Sacar conclusiones de los resultados.
+IMPORTANTE: Recuerde para la entrega del ejercicio debe quedar registrado en el colab las preguntas y las respuestas del BOT para que podamos evaluar el desempeño final.
+
+Trabajo practico 3:
+Crear sus propios vectores con Gensim basado en lo visto en clase con otro dataset.
+Probar términos de interés y explicar similitudes en el espacio de embeddings (sacar conclusiones entre palabras similitudes y diferencias).
+Graficarlos.
+Obtener conclusiones.
+
+Trabajo practico 4:
+poner en práctica la predicción de próxima palabra
+
+Trabajo practico 5:
+Utilizar Embeddings + LSTM para clasificar críticas de compradores de ropa.
+Deberá balancear el dataset.
+El accuracy de validación deberá rondar entre los 0.5 y 0.7.
+Pruebe con y sin embeddings pre-entrenados.
+
+Trabajo practico 6:
+Construir QA Bot basado en el ejemplo del traductor pero con un dataset QA.
+
+Recomendaciones:
+
+MAX_VOCAB_SIZE = 8000
+max_length ~ 10
+Embeddings 300 Fasttext
+n_units = 128
+LSTM Dropout 0.2
+Epochs 30~50
+Preguntas interesantes:
+
+Do you read?
+Do you have any pet?
+Where are you from?
+IMPORTANTE: Recuerde para la entrega del ejercicio debe quedar registrado en el colab las preguntas y las respuestas del BOT para que podamos evaluar el desempeño final.
